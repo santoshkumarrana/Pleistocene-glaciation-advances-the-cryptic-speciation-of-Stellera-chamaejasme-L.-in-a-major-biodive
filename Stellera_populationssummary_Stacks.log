@@ -1,0 +1,193 @@
+populations v2.55, executed 2021-07-15 14:03:07 (zlib-1.2.11)
+populations -P /public/home/santosh/RAD/Stacks -M /public/home/santosh/RAD/Stacks/popu.info --vcf --phylip --genepop --structure --radpainter --plink --treemix -r 0.8 -p 4 --min-maf 0.01 -t 40 --hwe
+Locus/sample distributions will be written to '/public/home/santosh/RAD/Stacks/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 4
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0.01
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 259 samples, 34 population(s), 1 group(s).
+Working on 259 samples.
+Working on 34 population(s):
+    Chen0018: Chen00181, Chen00182, Chen00183
+    Chen0019: Chen00191, Chen00192, Chen00193
+    Chen0021: Chen00211, Chen00212, Chen00213, Chen00214, Chen00215, Chen00216
+    Chen0022: Chen00221, Chen002210, Chen002211, Chen002212, Chen00222, Chen00223, Chen00224, Chen00225, Chen00226, Chen00227, Chen00228, 
+              Chen00229
+    LZY004005: LZY0040051, LZY00400510, LZY0040052, LZY0040053, LZY0040054, LZY0040055, LZY0040056, LZY0040057, LZY0040058
+    Yue0719: Yue07193, Yue07194, Yue07195, Yue07196
+    Yue0720: Yue07201, Yue072010, Yue072011, Yue072012, Yue07202, Yue07203, Yue07204, Yue07205, Yue07206, Yue07207, Yue07208, Yue07209
+    ZBFC295: ZBFC2951, ZBFC2952, ZBFC2953, ZBFC2954, ZBFC2955, ZBFC2956
+    ZBFC425: ZBFC4251, ZBFC42510, ZBFC42511, ZBFC42512, ZBFC4252, ZBFC4253, ZBFC4254, ZBFC4255, ZBFC4256, ZBFC4257, ZBFC4258, ZBFC4259
+    Deng9733: Deng97331, Deng97332, Deng97333, Deng97334, Deng97335, Deng97336, Deng97337, Deng97338
+    Deng9745: Deng97451, Deng974510, Deng97452, Deng97453, Deng97454, Deng97455, Deng97456, Deng97457, Deng97458, Deng97459
+    Deng9772: Deng97721, Deng97722, Deng97723, Deng97724, Deng97725, Deng97726, Deng97727, Deng97728
+    Deng9783: Deng97831, Deng978310, Deng97832, Deng97833, Deng97834, Deng97835, Deng97836, Deng97837, Deng97838, Deng97839
+    Deng9810: Deng98101, Deng98102, Deng98103, Deng98104, Deng98105
+    Deng9813: Deng98131, Deng98132, Deng98133, Deng98134, Deng98135, Deng98136, Deng98137, Deng98138
+    Deng9525: Deng95252, Deng95253, Deng95254, Deng95255, Deng95256, Deng95257, Deng95258
+    Deng9528: Deng95283, Deng95284, Deng95285
+    Deng9533: Deng95331, Deng95332, Deng95333, Deng95334, Deng95335, Deng95336, Deng95337, Deng95338
+    Chen0016: Chen00161, Chen00162, Chen00163, Chen00164, Chen00165, Chen00166, Chen00167, Chen00168
+    ZYZhou: ZYZhou1, ZYZhou10, ZYZhou11, ZYZhou12, ZYZhou2, ZYZhou3, ZYZhou4, ZYZhou5, ZYZhou6, ZYZhou7, ZYZhou8, ZYZhou9
+    Deng9524: Deng95241, Deng952410, Deng95242, Deng95244, Deng95246, Deng95247, Deng95248
+    Deng9535: Deng95351, Deng95352, Deng95353, Deng95354, Deng95355, Deng95356
+    Deng9634: Deng96341, Deng96342, Deng96343, Deng96344, Deng96345, Deng96346, Deng96347, Deng96348
+    Deng9703: Deng97031, Deng97034, Deng97036, Deng97037, Deng97038
+    Deng9847: Deng98471, Deng98472, Deng98473, Deng98474, Deng98475, Deng98476, Deng98477, Deng98479
+    Niuma003: Niuma0031, Niuma0032, Niuma0034
+    Chen0009: Chen00091, Chen000910, Chen00093, Chen00094, Chen00095, Chen00096, Chen00097, Chen00098, Chen00099
+    Chen0015: Chen00151, Chen001510, Chen00152, Chen00153, Chen00154, Chen00155, Chen00156, Chen00157, Chen00158, Chen00159
+    Deng8939: Deng89391, Deng893910, Deng89392, Deng89393, Deng89394, Deng89395, Deng89396, Deng89397, Deng89398, Deng89399
+    Deng8999: Deng89991, Deng899910, Deng89992, Deng89993, Deng89994, Deng89995, Deng89996, Deng89997, Deng89998, Deng89999
+    Deng9040: Deng90401, Deng904010, Deng90402, Deng90403, Deng90404, Deng90405, Deng90406, Deng90407, Deng90408, Deng90409
+    Deng9127: Deng91271, Deng91272, Deng91273, Deng91274, Deng91275, Deng91276, Deng91277
+    Deng9569: Deng95691, Deng95692, Deng95693, Deng95694, Deng95695, Deng95696, Deng95698
+    Deng9601: Deng96011, Deng96012, Deng96013, Deng96017, Deng96018
+Working on 1 group(s) of populations:
+    defaultgrp: Chen0018, Chen0019, Chen0021, Chen0022, LZY004005, Yue0719, Yue0720, ZBFC295, ZBFC425, Deng9733, Deng9745, Deng9772, Deng9783, Deng9810, Deng9813, Deng9525, Deng9528, Deng9533, Chen0016, ZYZhou, Deng9524, Deng9535, Deng9634, Deng9703, Deng9847, Niuma003, Chen0009, Chen0015, Deng8939, Deng8999, Deng9040, Deng9127, Deng9569, Deng9601
+
+SNPs and calls will be written in VCF format to '/public/home/santosh/RAD/Stacks/populations.snps.vcf'
+Haplotypes will be written in VCF format to '/public/home/santosh/RAD/Stacks/populations.haps.vcf'
+Fixed difference sites in Phylip format will be written to '/public/home/santosh/RAD/Stacks/populations.fixed.phylip'
+Polymorphic sites in GenePop format will be written to '/public/home/santosh/RAD/Stacks/populations.snps.genepop'
+Warning: Genepop: The order in which samples appear was modified (as the input population map is not sorted).Polymorphic loci in GenePop format will be written to '/public/home/santosh/RAD/Stacks/populations.haps.genepop'
+Polymorphic sites in Structure format will be written to '/public/home/santosh/RAD/Stacks/populations.structure'
+Polymorphic loci in RADpainter/fineRADstructure format will be written to '/public/home/santosh/RAD/Stacks/populations.haps.radpainter'
+Polymorphic sites in PLINK format will be written to '/public/home/santosh/RAD/Stacks/populations.plink.ped'
+Per-population SNP allele counts will be written to '/public/home/santosh/RAD/Stacks/populations.treemix'
+Raw haplotypes will be written to '/public/home/santosh/RAD/Stacks/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/public/home/santosh/RAD/Stacks/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/public/home/santosh/RAD/Stacks/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/public/home/santosh/RAD/Stacks/populations.log.distribs'.
+Now processing...
+Batch 1 
+Batch 2 
+Batch 3 
+
+Removed 4027925 loci that did not pass sample/population constraints from 4051140 loci.
+Kept 23215 loci, composed of 3704446 sites; 8850 of those sites were filtered, 5800 variant sites remained.
+Mean genotyped sites per locus: 159.57bp (stderr 0.08).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Chen0018: 3 samples per locus; pi: 0.14627; all/variant/polymorphic sites: 764958/1190/373; private alleles: 38
+  Chen0019: 3 samples per locus; pi: 0.055787; all/variant/polymorphic sites: 2520176/2782/301; private alleles: 42
+  Chen0021: 5.453 samples per locus; pi: 0.077007; all/variant/polymorphic sites: 2630132/2976/663; private alleles: 266
+  Chen0022: 10.936 samples per locus; pi: 0.081402; all/variant/polymorphic sites: 2008284/2266/763; private alleles: 290
+  LZY004005: 8.5102 samples per locus; pi: 0.072385; all/variant/polymorphic sites: 1239001/1427/304; private alleles: 56
+  Yue0719: 4 samples per locus; pi: 0.071267; all/variant/polymorphic sites: 1736232/1988/323; private alleles: 55
+  Yue0720: 10.94 samples per locus; pi: 0.067522; all/variant/polymorphic sites: 2081791/2330/512; private alleles: 78
+  ZBFC295: 5.65 samples per locus; pi: 0.063855; all/variant/polymorphic sites: 2711971/3143/506; private alleles: 96
+  ZBFC425: 10.801 samples per locus; pi: 0.070562; all/variant/polymorphic sites: 1773115/1872/445; private alleles: 86
+  Deng9733: 7.3762 samples per locus; pi: 0.067918; all/variant/polymorphic sites: 1548541/1688/347; private alleles: 53
+  Deng9745: 8.9293 samples per locus; pi: 0.08049; all/variant/polymorphic sites: 2208204/2363/600; private alleles: 112
+  Deng9772: 7.4881 samples per locus; pi: 0.053957; all/variant/polymorphic sites: 1561587/1680/244; private alleles: 34
+  Deng9783: 8.6647 samples per locus; pi: 0.072286; all/variant/polymorphic sites: 1873278/2240/505; private alleles: 137
+  Deng9810: 4.3645 samples per locus; pi: 0.11497; all/variant/polymorphic sites: 919460/1443/396; private alleles: 61
+  Deng9813: 7.4119 samples per locus; pi: 0.10286; all/variant/polymorphic sites: 651600/874/278; private alleles: 31
+  Deng9525: 6.4751 samples per locus; pi: 0.1047; all/variant/polymorphic sites: 631914/1006/279; private alleles: 49
+  Deng9528: 3 samples per locus; pi: 0.14123; all/variant/polymorphic sites: 357675/836/237; private alleles: 39
+  Deng9533: 7.3275 samples per locus; pi: 0.094379; all/variant/polymorphic sites: 560393/574/209; private alleles: 15
+  Chen0016: 7.5671 samples per locus; pi: 0.07574; all/variant/polymorphic sites: 1693196/1684/380; private alleles: 96
+  ZYZhou: 11.015 samples per locus; pi: 0.079122; all/variant/polymorphic sites: 1124888/1220/305; private alleles: 52
+  Deng9524: 6.4316 samples per locus; pi: 0.11181; all/variant/polymorphic sites: 642181/892/309; private alleles: 54
+  Deng9535: 5.5471 samples per locus; pi: 0.1145; all/variant/polymorphic sites: 490976/1135/311; private alleles: 90
+  Deng9634: 7.5458 samples per locus; pi: 0.054756; all/variant/polymorphic sites: 1824804/1779/289; private alleles: 66
+  Deng9703: 4.4873 samples per locus; pi: 0.090837; all/variant/polymorphic sites: 1858184/2093/473; private alleles: 89
+  Deng9847: 7.4883 samples per locus; pi: 0.045262; all/variant/polymorphic sites: 1816357/1794/264; private alleles: 79
+  Niuma003: 3 samples per locus; pi: 0.12385; all/variant/polymorphic sites: 497623/801/199; private alleles: 27
+  Chen0009: 8.1757 samples per locus; pi: 0.098468; all/variant/polymorphic sites: 1114783/1292/361; private alleles: 138
+  Chen0015: 8.8953 samples per locus; pi: 0.11464; all/variant/polymorphic sites: 890860/1261/447; private alleles: 96
+  Deng8939: 8.5098 samples per locus; pi: 0.10671; all/variant/polymorphic sites: 1175784/1279/424; private alleles: 87
+  Deng8999: 8.8426 samples per locus; pi: 0.085352; all/variant/polymorphic sites: 1401234/1646/448; private alleles: 107
+  Deng9040: 8.9951 samples per locus; pi: 0.078961; all/variant/polymorphic sites: 1703647/2041/493; private alleles: 147
+  Deng9127: 6.4028 samples per locus; pi: 0.11525; all/variant/polymorphic sites: 580339/844/247; private alleles: 23
+  Deng9569: 6.4823 samples per locus; pi: 0.082821; all/variant/polymorphic sites: 1172977/1493/337; private alleles: 57
+  Deng9601: 4.399 samples per locus; pi: 0.12426; all/variant/polymorphic sites: 993184/1386/431; private alleles: 94
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Chen0018: 0
+  Chen0019: 0
+  Chen0021: 30
+  Chen0022: 242
+  LZY004005: 94
+  Yue0719: 0
+  Yue0720: 196
+  ZBFC295: 2
+  ZBFC425: 137
+  Deng9733: 91
+  Deng9745: 179
+  Deng9772: 73
+  Deng9783: 141
+  Deng9810: 0
+  Deng9813: 69
+  Deng9525: 44
+  Deng9528: 0
+  Deng9533: 21
+  Chen0016: 102
+  ZYZhou: 114
+  Deng9524: 25
+  Deng9535: 0
+  Deng9634: 79
+  Deng9703: 0
+  Deng9847: 59
+  Niuma003: 0
+  Chen0009: 162
+  Chen0015: 140
+  Deng8939: 158
+  Deng8999: 147
+  Deng9040: 191
+  Deng9127: 57
+  Deng9569: 74
+  Deng9601: 1
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Chen0018: 1698
+  Chen0019: 6552
+  Chen0021: 6461
+  Chen0022: 4988
+  LZY004005: 2945
+  Yue0719: 4204
+  Yue0720: 5194
+  ZBFC295: 6905
+  ZBFC425: 4346
+  Deng9733: 3628
+  Deng9745: 5414
+  Deng9772: 3852
+  Deng9783: 4815
+  Deng9810: 2268
+  Deng9813: 1511
+  Deng9525: 1584
+  Deng9528: 897
+  Deng9533: 1075
+  Chen0016: 4094
+  ZYZhou: 2689
+  Deng9524: 1327
+  Deng9535: 1263
+  Deng9634: 4495
+  Deng9703: 4547
+  Deng9847: 4520
+  Niuma003: 1131
+  Chen0009: 2572
+  Chen0015: 2152
+  Deng8939: 2753
+  Deng8999: 3337
+  Deng9040: 4236
+  Deng9127: 1395
+  Deng9569: 2855
+  Deng9601: 2305
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+Populations is done.
