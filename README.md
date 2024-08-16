@@ -1,4 +1,7 @@
-Pleistocene glaciation advances the cryptic speciation in a major biodiversity hotspot
+Pleistocene glaciation advances the cryptic speciation of Stellera chamaejasme L. in a major biodiversity hotspot
+Santosh Kumar Rana, Hum Kala Rana, Jacob B. Landis, Tianhui Kuang, Juntong Chen, Hengchang Wang, Tao Deng, Charles C. Davis, Hang Sun
+Journal of Integrative Plant Science 66(6): 1192-1205.
+https://doi.org/10.1111/jipb.13663
 
 Data source for analyzing population genomic, morphological character matrix and ecological niche dynamic matrix: 
 
